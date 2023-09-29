@@ -1,11 +1,13 @@
 import java.util.Scanner;
 
 public class CursoJava06 {
+
     public static void main(String[] args) {
-        final int size = 5;
-        char[] template = { 'a', 'a', 'd', 'b', 'c' };
-        char[] answers = new char[size];
-        int note = 0;
-        Scanner keyboard = new Scanner(System.in);
+        int[] num = { 10, 20, 30, 40, 50 };
+
+        for (int i = 0; i < num.length; i++) {
+            System.out.printf("%d - ", num[i]);
+        }
+
     }
 }
